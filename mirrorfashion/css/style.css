@@ -1,0 +1,43 @@
+body {
+    color: #333333;
+    font-family: Lucida Sans Unicode", " Lucida Grande", sans-serif;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    /*Não repetir a imagem*/
+    background-position: top right;
+    /*Posicionamento da imagem*/
+    font-size: 14px;
+    /*Tamanho da fonte*/
+    padding-right: 35px;
+    /*COLOCANDO ESPAÇAMENTO INTERNO*/
+    padding-top: 8px;
+    text-align: right;
+    /*Colocando o texto a direita*/
+    width: 130px;
+    /*Largura*/
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+    /*Cor da fonte*/
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    /*COLOCANDO AS LISTA EM LINHA*/
+    margin-left: 20PX;
+    /*COLOCANDO MARGEM EXTERNA A ESQUERDA*/
+}
